@@ -4,7 +4,114 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url('/images/bgtile.png');
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  margin-top: 100px ;
+
+
+}
+
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.phones {
+  height: 460px;
+  margin-right: 50px;
+}
+
+.body-content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+
+.insta {
+  height: 50px;
   margin: 0;
+  padding:0%
+}
+
+.log-in-btn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1c5380 ;
+  border-radius: 5px;
+
+
+}
+.log-in-btn img{
+  height: 1.5em;
+  padding-right: 8%;
+  margin: 0;
+}
+.log-in-btn h4{
+  font-size: 0.9em;
+
+}
+
+
+.body-text {
+  background-color: white;
+  padding: 25px 25px 0px 25px;
+  border-radius: 4px;
+/* background-image: url('/images/frame.png'); */
+}
+
+h1 {
+  font-size: 1.4em;
+  color: #1c5380;
+  padding-bottom: 10px;
+  
+}
+
+/* hr {
+  height:2px; 
+  visibility:hidden; 
+  margin-bottom:6px;} */
+
+
+p {
+  font-size: 0.85em;
+  line-height: 1.8em;
+  padding-bottom: 30px;
+
+}
+
+
+
+.body-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.store-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0%;
+
+}
+.store-links .first-link {
+  margin-right: 20px 
+  
+
 }
